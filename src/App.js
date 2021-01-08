@@ -37,20 +37,10 @@ const App = () => {
             Accendero
           </Link>
           <div className="navbar-nav mr-auto">
-            <li className="nav-item">
-              <Link to={"/home"} className="nav-link">
-                Home
-              </Link>
-            </li>
-
-           
-
-           
-
             {currentUser && (
               <li className="nav-item">
-                <Link to={"/user"} className="nav-link">
-                  User
+                <Link to={"/profile"} className="nav-link">
+                  Profile
                 </Link>
               </li>
             )}
